@@ -1,7 +1,6 @@
 ; lab4.asm
 SECTION .data ; Начало секции данных
     lab4: DB 'Мухина Ксения',10
-    
     lab4Len: EQU $-lab4
 SECTION .text ; Начало секции кода
     GLOBAL _start
